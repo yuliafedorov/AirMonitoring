@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using BBL.DTO;
 using BBL.Services.Interfaces;
 using Catalog.DAL.UnitOfWork;
@@ -11,13 +10,13 @@ using DAL.Entities;
 
 namespace BBL.Services.Impl
 {
-    public class RegionServices
+    public class RegionService
         : IRegionService
     {
         private readonly IUnitOfWork _database;
         private int pageSize = 10;
         
-        public RegionServices( IUnitOfWork unitOfWork)
+        public RegionService( IUnitOfWork unitOfWork)
         {
             if (unitOfWork == null)
             {
