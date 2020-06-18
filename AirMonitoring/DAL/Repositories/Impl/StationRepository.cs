@@ -17,6 +17,7 @@ namespace DAL.Repositories.Impl
         internal StationRepository(StationContext context)
             : base(context)
         {
+           
         }
     }
    

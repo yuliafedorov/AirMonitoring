@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace DAL.Repositories.Impl
 {
     public abstract class BaseRepository<T>
-       : Repository<T>
+       : IRepository<T>
        where T : class
     {
         private readonly DbSet<T> _set;
