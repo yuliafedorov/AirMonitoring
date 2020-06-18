@@ -4,7 +4,13 @@ using System.Text;
 
 namespace CCL.Security.Identity
 {
-    class Worker
+    public class Worker
+          : User
     {
+        public Worker(int userId, string name, int stationId)
+            : base(userId, name, stationId, nameof(Worker))
+        {
+        }
     }
+   
 }

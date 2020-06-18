@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DAL.Entities
+namespace BBL.DTO
 {
-    public class Region
+    public class RegionDTO
     {
         public int RegionID { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
-        
-        public Station Station { get; set; }
+    
     }
+  
 }

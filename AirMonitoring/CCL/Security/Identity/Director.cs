@@ -4,7 +4,14 @@ using System.Text;
 
 namespace CCL.Security.Identity
 {
-    class Director
+
+    public class Director
+        : User
     {
+        public Director(int userId, string name, int stationId)
+            : base(userId, name, stationId, nameof(Director))
+        {
+        }
     }
 }
+

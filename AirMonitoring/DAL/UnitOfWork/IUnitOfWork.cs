@@ -5,7 +5,7 @@ using DAL.Repositories.Interfaces;
 
 namespace Catalog.DAL.UnitOfWork
 {
-    interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         IStationRepository Stations { get; }
         IRegionRepository Regions { get; }
