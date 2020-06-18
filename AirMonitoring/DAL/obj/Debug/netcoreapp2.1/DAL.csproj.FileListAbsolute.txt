@@ -1,6 +1,0 @@
-C:\Users\Atom\Desktop\AirMonitoring\AirMonitoring\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
-C:\Users\Atom\Desktop\AirMonitoring\AirMonitoring\DAL\bin\Debug\netcoreapp2.1\DAL.dll
-C:\Users\Atom\Desktop\AirMonitoring\AirMonitoring\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
-C:\Users\Atom\Desktop\AirMonitoring\AirMonitoring\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
-C:\Users\Atom\Desktop\AirMonitoring\AirMonitoring\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
-C:\Users\Atom\Desktop\AirMonitoring\AirMonitoring\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
